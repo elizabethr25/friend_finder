@@ -1,6 +1,4 @@
 //FRIENDS DATA
-//===========================================
-
 var friends = [
     {
         "name":"Rachel Green",
@@ -98,3 +96,5 @@ var friends = [
         ]
     }
 ]
+
+module.exports = friends;

@@ -19,22 +19,39 @@
         crossorigin="anonymous"></script>
 
     <!-- Font Awesome  -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
 
     <title>Friend Finder | Home</title>
 
 </head>
 
+<script src="../../app/routing/apiRoutes.js"></script>
+<script src="../data/friends.js"></script>
+
 <body>
-<div class="container">
-    <div class="jumbotron">
-        <h1 class="display-4"><i class="fab fa-facebook-square"></i> <strong> Friend Finder</strong></h1>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">
+                <i class="fab fa-facebook-square"></i>
+                <strong> Friend Finder</strong>
+            </h1>
+            <hr>
+            <p class="lead">Answer a few basic quesitons.</p>
+            <p>Then find the friend with the greatest compatibility!</p>
+            <a class="btn btn-primary btn-lg" href="/survey" role="button">
+                <i class="fas fa-list-alt"></i> Go to survey</a>
+        </div>
         <hr>
-        <p class="lead">Answer a few basic quesitons.</p>
-        <p>Then find the friend with the greatest compatibility!</p>
-        <a class="btn btn-primary btn-lg" href="survey.html" role="button"><i class="fas fa-list-alt"></i> Go to survey</a>
+        <footer>
+            <a href="/api/friends">API Friends List</a>
+            |
+            <a src="https://github.com/elizabethr25/friend_finder">Git Hub Repo</a>
+        </footer>
+
     </div>
-</div>
 </body>
+
+
 
 </html>

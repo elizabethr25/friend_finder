@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/elizabethr25/friend_finder#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "fs": "0.0.1-security"
   }
 }
