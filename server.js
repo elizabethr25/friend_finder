@@ -15,6 +15,8 @@ app.use(express.static(path.join(__dirname, '/app/public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
+app.use(express.static(path.join(__dirname, 'static')));
+
 
 // Add the application routes
 require(path.join(__dirname, "/app/routing/apiRoutes"))(app);
